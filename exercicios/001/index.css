@@ -1,0 +1,18 @@
+.name{
+    padding: 10px 8px;
+    width: 50px;
+    color: white;
+    background: black;
+    border: 1pxs solid #555;
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+
+}
+
+.name:hover{
+    background: rgb(35, 156, 55) ;
+    
+
+}

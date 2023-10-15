@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+</head>
+<style>
+    div{
+        display: inline-block;
+        background-color: lightgreen;
+        text-align: center;
+        border: 1px solid black;
+        height: 100px;
+        width: 100px;
+    }
+   div:hover{
+    background-color: yellow;
+   
+   }
+   div>p{
+    display: none;
+
+   }
+   div:hover>p{
+    display: block;
+    background-color: rgb(201, 201, 221);
+    text-align: left;
+   }
+
+</style>
+<body>
+    <div id="d1">01 <p><a href="hover.html" target="_blank">musicas</a></p>
+    </div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+
+    
+</body>
+</html>
