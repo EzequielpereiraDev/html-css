@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+    min-height: 100%;
+    background-color: darkgray;
+
+}
+header{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+header>h1{
+padding-top: 50px;
+text-transform: uppercase;
+}
