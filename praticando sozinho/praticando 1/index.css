@@ -1,0 +1,11 @@
+.name{
+text-align: center;
+align-items: center;
+border: solid rgb(23, 36, 216); height: 50px; width: 100
+px;
+}
+
+h1, h2, p {
+    text-align: center;
+    color: red;
+  }

@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+:root{
+    --cor1:#2A8C82;
+    --cor2:#41BFB3;
+    --cor3:#9BF2EA;
+    --cor4:#275950;
+    --cor5:#260101;
+}
+*{
+    
+}
+body{
+    background-color: #275950;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 98px;
+
+}
+.fundo{
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2));
+    box-shadow: 1px 2px var(--cor5);
+    height: 450px;
+    width: 500px;
+    border: 2px solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form>h1{
+    color: var(--cor5);
+    padding-bottom: 10px;
+    text-align: center;
+    position: relative;
+
+
+}
+.senha{
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}   
+.senha > input{
+    font-size: 1em;
+    background-color: var(--cor5);
+    color: aliceblue;
+    padding: 5px ;
+    text-decoration: underline;
+} 
+   .senha > input:hover{
+    background-color: #9BF2EA;
+
+   } 
+
+.email{
+    font-size: 20px;
+   
+    
+}
+.email > input{
+    font-size: 1em;
+    color: aliceblue;
+    background-color: var(--cor5);
+    padding: 5px
+
+}
+.email > input:hover{
+    background-color: #9BF2EA;
+}
+
+.submit{
+    
+    margin-left: 39px;
+    margin-top: 10px;
+    
+}
+.submit > input{
+    margin-top: 50px;
+    margin-left: 27px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.submit > input:hover{
+    background-image: linear-gradient(to right, var(--cor3), var(--cor4));
+    
+    
+}
+.submit > input:active{
+    color: red;
+    
+}

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+    margin: auto;
+    
+}
+.name{
+    background-color: rgb(28, 83, 131);
+    margin: auto;
+    margin-top: auto;
+    height: 500px;
+    width: 500px;
+}
+.text{
+    background-color: aquamarine;
+    display: flex;
+     margin-top: auto;
+     margin-right: auto;
+     margin-bottom: 100px;
+     margin-left: auto;
+     height: 200px;
+     width: 200px;
+  
+    
+    
+    
+}

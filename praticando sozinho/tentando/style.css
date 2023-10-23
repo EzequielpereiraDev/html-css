@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family:"FrederickatheGreatRegular" ;
+    src: url(fonts/FrederickatheGreat-Regular.ttf)
+    url(fonts/OFL.txt);
+} 
+
+
+body{
+   
+    background-color: aquamarine;
+    text-align: center;
+   
+}
+.h1{
+    
+    font-family: "FrederickatheGreatRegular";
+    display: block;
+    background-image: linear-gradient(to bottom, #F09E2B, #1C8FD9);
+    
+    box-shadow: 5px 5px rgba(78, 29, 11, 0.404) ;
+    border: 1px solid rgb(219, 105, 64) ;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+img{
+   width: 100px;
+   margin: 60px 20px ;
+   background-color: aliceblue;
+   border-radius: 50px;
+   
+}
+a{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: auto;
+    width: 80px;
+    
+}
+a:hover{
+    color: darkolivegreen;
+    background-color: rgb(43, 211, 211);
+    
+    
+}
+img:hover{
+    background-color: aquamarine;
+}
