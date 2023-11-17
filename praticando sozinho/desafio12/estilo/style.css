@@ -28,6 +28,14 @@ header{
     color: aliceblue;
     text-align: center;
 }
+nav{
+    text-align: left;
+
+}
+nav>a{
+    color: aqua;
+    text-decoration: none;
+}
 header>h1{
 padding-top: 50px;
 text-transform: uppercase;
